@@ -9,5 +9,7 @@
     <string name="title_activity_wiki">WikiActivity</string>
     <string name="title_activity_wiki_edit">WikiEditActivity</string>
     <string name="title_activity_asdasd">asdasd</string>
+    <string name="title_activity_wiki_html">WikiHTMLActivity</string>
+    <string name="title_activity_test">test</string>
 
 </resources>

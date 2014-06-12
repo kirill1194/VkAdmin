@@ -68,7 +68,7 @@ public class GroupActivity extends BaseActivity {
                 Intent members = new Intent(GroupActivity.this, MembersListActivity.class);
                 members.putExtra("group_id", new Long(currentGroup.id));
                 startActivity(members);
-                finish();
+               // finish();
                 // откроем здесь работу с пользователями
             }
         });
@@ -79,7 +79,7 @@ public class GroupActivity extends BaseActivity {
                 Intent desk = new Intent(GroupActivity.this, WikiListActivity.class);
                 desk.putExtra("group_id", new Long(currentGroup.id));
                 startActivity(desk);
-                finish();
+                //finish();
             }
         });
         wikiPage.setText(currentGroup.wiki_page);
@@ -111,6 +111,8 @@ public class GroupActivity extends BaseActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
 
 }
 
